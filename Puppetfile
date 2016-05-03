@@ -65,3 +65,11 @@ github "xquartz",     "1.2.1"
 # github "postgresql",  "4.0.1"
 # github "redis",       "3.1.0"
 # github "sysctl",      "1.0.1"
+
+github "puppet-cyberduck",     "1.0.1"
+github "puppet-chrome",        "1.2.0"
+github "puppet-firefox",       "1.2.3"
+github "puppet-sourcetree",    "1.0.0"
+github "puppet-sublime_text",  "1.1.1"
+
+mod "property_list_key",  "0.1.0",   :github_tarball => "glarizza/puppet-property_list_key"
