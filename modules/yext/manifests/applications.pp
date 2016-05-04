@@ -11,10 +11,10 @@ class yext::applications {
 
 
   # Common applications
-  install cyberduck
-  install chrome
-  install firefox
-  install sourcetree
+  include cyberduck
+  include chrome
+  include firefox
+  include sourcetree
   package { 'Sketch':
     ensure   => installed,
     source   => 'https://www.sketchapp.com/static/download/sketch.zip',
